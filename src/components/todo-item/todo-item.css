@@ -1,0 +1,53 @@
+.item {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.action-btns {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .action-btns {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.detail-btn {
+  color: white;
+  background-color: rgb(0, 217, 255);
+  padding: 10px 20px;
+}
+
+.remove-btn {
+  color: white;
+  background-color: rgb(255, 72, 0);
+}
+
+.detail {
+  display: flex;
+  justify-content: center;
+
+  border-top: 1px solid black;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+}

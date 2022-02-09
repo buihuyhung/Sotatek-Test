@@ -1,0 +1,27 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 880px) {
+  .select-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  input[type="date"] {
+    width: 100%;
+  }
+}
+
+.submit-btn {
+  background-color: green;
+}
